@@ -107,7 +107,7 @@ li{
 
 @media only screen and (max-width: 412px) {
     .banner{
-        height: 55vh;
+        height: 60vh;
     }
     /* .banner_button {
         text-align: center;
@@ -116,7 +116,7 @@ li{
         display: none;
     }
     .banner_heading h1{
-        font-size: 49px;
+        font-size: 45px;
     }
     .banner_logo {
         margin-left: 5px;

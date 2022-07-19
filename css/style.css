@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.h1, h1 {
+    font-size: calc(3rem + 1.3vw);
+}
+
+.banner{
+    background-color: #bdeab0;
+    /* height: 55vh; */
+    border-radius: 10px;
+    margin-top: 60px;
+    border-top: 7px solid #7782eb;
+}
+.banner_section{
+    
+   
+}
+.logo {
+    width: 9%;
+}
+.banner_logo {
+    margin-left: 60px;
+    margin-top: 22px;
+}
+.banner_img{
+    width: 100%;
+}
+.banner_heading {
+    font-size: 54px;
+    font-family: 'Mingzat', sans-serif;
+    margin-top: 30px;
+    font-weight: 700;
+    margin-left: 60px;
+}
+
+.banner_text {
+    font-size: 30px;
+    font-family: 'Mingzat', sans-serif;
+    margin-left: 60px;
+}
+.banner_button {
+    margin-top: 35px;
+    margin-left: 60px;
+}
+.banner_call_to_button {
+    padding: 14px 40px;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.banner_call_to_button:hover{
+    color: #fff;
+}
+.large_button{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.to_button {
+    padding: 12px 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    background: #7782eb;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.to_button:hover{
+    color: #fff;
+}
+.body_1{
+    margin: 50px 0;
+}
+.body_1_text{
+    font-size: 22px;
+    line-height: 1.8;
+}
+p{
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+li{
+    font-size: 20px;
+    line-height: 1.8;
+}
+.championship{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Mingzat', sans-serif;
+}
+.registration_korun{
+    text-decoration: none;
+
+}
+.margin-left{
+    margin-left: 60px;
+    list-style: none;
+}
+
+@media only screen and (max-width: 412px) {
+    .banner{
+        height: 55vh;
+    }
+    /* .banner_button {
+        text-align: center;
+    } */
+    .banner_image{
+        display: none;
+    }
+    .banner_heading h1{
+        font-size: 49px;
+    }
+    .banner_logo {
+        margin-left: 5px;
+       
+    }
+    /* .banner_heading h1{
+   
+      
+        margin-left: 5px;
+    } */
+    /* .banner_text {
+       
+        margin-left: 5px;
+    } */
+    .banner{
+        margin-top: 0px;
+    }
+}

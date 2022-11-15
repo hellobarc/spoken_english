@@ -86,9 +86,11 @@ p{
     font-size: 22px;
     line-height: 1.8;
 }
-
+ul{
+    font-size: 25px;
+}
 li{
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.8;
 }
 .championship{
@@ -114,6 +116,9 @@ li{
     } */
     .banner_image{
         display: none;
+    }
+    .banner_heading{
+        margin-left: 40px;
     }
     .banner_heading h1{
         font-size: 45px;
